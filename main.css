@@ -4,15 +4,20 @@ main{
     grid-template-rows: auto;
 }
 
-#container{
-    display: flex;
-    flex-flow: row wrap;
+.mainp{
+    border: 2px solid blue;
+    margin:30px;
+    border-radius: 10px;
 }
 
-nav ul {
-    display: flex;
-  }
-  
-  nav li {
-    flex: 150px;
-  }
+header{
+    border: 2px solid blue;
+    margin:30px;
+    border-radius: 10px;
+}
+
+footer{
+    border: 2px solid blue;
+    margin:30px;
+    border-radius: 10px;
+}
